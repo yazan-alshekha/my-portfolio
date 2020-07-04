@@ -17,11 +17,11 @@ server.listen(PORT, () => {
 server.use(express.static('./public'));
 
 
-server.get('/test', (request, response) => {
-    response.send('response');
-    console.log('response');
-});
+// server.get('/test', (request, response) => {
+//     response.send('response');
+//     console.log('response');
+// });
 
-server.get('/', (request, response) => {
-    response.send('hello');
-});
+// server.get('/', (request, response) => {
+//     response.send('hello');
+// });
